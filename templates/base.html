@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Django Blog</title>
+    <title>ITC Blog</title>
 <style>
 
     body {
@@ -91,7 +91,7 @@ main {
 
     <div class="auth-block">
       {% if user.is_authenticated %}
-        <p><i class="fas fa-user"></i> Xush kelibsiz, <strong>{{ user.username }}</strong>!</p>
+        <p><i class="fas fa-user"></i> Assalom alekum, <strong>{{ user.username }}</strong>!</p>
         <p><a href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i> Saytdan chiqish</a></p>
       {% else %}
         <p>
